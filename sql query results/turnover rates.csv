@@ -1,0 +1,14 @@
+﻿department;total_count;terminated_count;turnover_rate
+Auditing;52;9;0,17
+Legal;311;42;0,14
+Engineering;6686;788;0,12
+Training;1692;208;0,12
+Support;954;113;0,12
+Human Resources;1807;214;0,12
+Research and Development;1084;131;0,12
+Accounting;3333;385;0,12
+Sales;1832;210;0,11
+Services;1686;188;0,11
+Product Management;641;73;0,11
+Marketing;494;48;0,1
+Business Development;1642;172;0,1
