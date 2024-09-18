@@ -2,7 +2,7 @@
 CREATE DATABASE hr;
 
 -- after loading database
-use hr;
+USE hr;
 
 -- explore the loaded data into hr_table
 SELECT *
@@ -20,7 +20,6 @@ UPDATE hr_table
 SET termdate = FORMAT(CONVERT(DATETIME, LEFT(termdate, 19), 120), 'yyyy-MM-dd');
 
 -- Update from nvachar to date
--- First, add a new date column
 ALTER TABLE hr_table
 ADD new_termdate DATE;
 
@@ -54,7 +53,7 @@ SELECT
  MAX(AGE) AS max_age
 FROM hr_table;
 
--- QUESTIONS TO ANSWER FROM THE DATA
+-- BUSINESS QUESTIONS TO ANSWER FROM THE DATA
 
 -- 1) What's the age distribution in the company?
 SELECT 
