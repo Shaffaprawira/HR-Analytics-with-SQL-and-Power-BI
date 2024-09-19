@@ -62,4 +62,4 @@ Based on the insights drawn from the analysis, the following recommendations are
 ## Assumptions and Caveats
 
 - **Data Assumptions**: It is assumed that the dataset represents the complete workforce and that the "new_termdate" accurately reflects employee termination dates.
-- **Caveats**: The analysis is limited to the columns available in the dataset. Additional context, such as employee performance or satisfaction scores, would provide a more comprehensive view of workforce dynamics.
+- **Caveats**: The analysis is limited to the columns available in the dataset. Additional context, such as employee performance or satisfaction scores, would provide a more comprehensive view of workforce dynamics. 
